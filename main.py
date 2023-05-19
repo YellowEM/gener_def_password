@@ -12,3 +12,13 @@ up = input('Включать ли прописные буквы ABCDEFGHIJKLMNOP
 low = input('Включать ли строчные буквы abcdefghijklmnopqrstuvwxyz? (д = да, н = нет)')
 sym = input('Включать ли символы !#$%&*+-=?@^_? (д = да, н = нет)')
 isk = input('Исключать ли неоднозначные символы il1Lo0O? (д = да, н = нет)')
+
+if dig == 'д':
+    chars += digits
+if up == 'д':
+    chars += uppercase_letters
+if low == 'д':
+    chars += lowercase_letters
+if sym == 'д':
+    chars += punctuation
+if isk == 'д':   # старт программы
