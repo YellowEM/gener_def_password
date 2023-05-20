@@ -21,4 +21,5 @@ if low == 'д':
     chars += lowercase_letters
 if sym == 'д':
     chars += punctuation
-if isk == 'д':   # старт программы
+for i in range(int(num)): # старт программы
+    if isk == 'д':
