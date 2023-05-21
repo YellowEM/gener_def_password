@@ -23,3 +23,8 @@ if sym == 'д':
     chars += punctuation
 for i in range(int(num)): # старт программы
     if isk == 'д':
+        for i in range(int(leng)):
+            if chars.count(chars[i]) > 1:
+                while chars[i]==random.sample(chars):
+                    chars.replace(i, random.sample(chars))
+    print(*random.sample(chars, int(leng)), sep='')
