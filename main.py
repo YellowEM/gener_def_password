@@ -28,3 +28,4 @@ for i in range(int(num)): # старт программы
                 while chars[i]==random.sample(chars):
                     chars.replace(i, random.sample(chars))
     print(*random.sample(chars, int(leng)), sep='')
+#no
