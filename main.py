@@ -28,3 +28,5 @@ for i in range(int(num)): # старт программы
                 while chars[i]==random.sample(chars):
                     chars.replace(i, random.sample(chars))
     print(*random.sample(chars, int(leng)), sep='')
+#for _ in range(n):
+#    generate_password(leng, chars)
